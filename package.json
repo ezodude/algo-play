@@ -4,7 +4,7 @@
   "description": "Basic algorithm play.",
   "main": "algos.js",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --opts ./mocha.opts $(find functions -name '*.spec.js')"
+    "test": "node node_modules/mocha/bin/mocha --opts ./mocha.opts $(find . -name '*.spec.js')"
   },
   "author": "Ezo Saleh <npm@ezosaleh.com> (http://ezosaleh.com/)",
   "license": "ISC",

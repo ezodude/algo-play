@@ -3,7 +3,7 @@
 const chai        = require('chai')
     , expect      = chai.expect;
 
-let algos = require('../algos');
+const algos = require('./algos');
 
 describe('something', function () {
   describe('zip', function () {
